@@ -1,0 +1,31 @@
+.main {
+  text-align: center;
+}
+.top_img {
+  height: 400px;
+  background-color: aquamarine;
+}
+.top_msg {
+  color: grey;
+}
+.ticket_list {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.ticket {
+  margin: 40px;
+  height: 400px;
+  width: 20%;
+  background-color: rgb(141, 141, 207);
+}
+.ticket_img {
+  height: 70%;
+  width: 100%;
+  background-color: rgb(175, 214, 68);
+}
+.ticket_txt {
+  color: black;
+}
