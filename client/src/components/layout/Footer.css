@@ -1,0 +1,18 @@
+footer {
+  height: 90px;
+  background-color: #87cefa;
+  padding: 30px;
+}
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+.footer-list {
+  float: right;
+}
+li {
+  list-style: none;
+}
+.footer-list li {
+  padding-bottom: 20px;
+}
