@@ -3,6 +3,6 @@
 ブラウザで起動：
 
 ```
-cd ticket-nft
+cd client
 npm run dev
 ```
