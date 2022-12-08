@@ -1,31 +1,99 @@
+.wrap {
+  top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+.side {
+  padding: 20px;
+  background: rgb(191, 215, 224);
+}
+.side-content {
+  position: sticky;
+  top: 170px;
+  background: rgb(191, 215, 224);
+  color: #1c638f;
+}
 .main {
+  margin: 0;
+}
+.top-img {
+  height: 500px;
+  background-image: url(../assets/Stock.jpg);
+  background-size:  cover;
   text-align: center;
-}
-.top_img {
-  height: 400px;
-  background-color: aquamarine;
-}
-.top_msg {
-  color: grey;
-}
-.ticket_list {
-  display: flex;
   /* justify-content: center; */
+}
+.top-msg1 {
+  padding-top: 140px;
+  color: white;
+  font-size: 90px;
+  display:  inline-block;
+}
+.top-msg2 {
+  color: white;
+  font-size: 60px;
+  display: inline-block;
+}
+.card-list {
+  display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-left: 5%;
   padding-right: 5%;
 }
-.ticket {
+.card {
   margin: 40px;
-  height: 400px;
-  width: 20%;
-  background-color: rgb(141, 141, 207);
+  height: 500px;
+  width: 25%;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: rgb(181, 180, 180);
+  background-color: white;
+  text-align: center;
+  box-shadow: 15px 15px 25px 0 rgba(0, 0, 0, .5);
 }
-.ticket_img {
-  height: 70%;
+.card-img {
+  height: 50%;
   width: 100%;
-  background-color: rgb(175, 214, 68);
+  border-radius: 20px 20px 0 0;
 }
-.ticket_txt {
-  color: black;
+.card-txt {
+  color: rgb(67, 66, 66);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* .card-button {
+  border-radius: 20px;
+  width: 60%;
+  height: 30px;
+  padding-bottom: 5px;
+  background-color: rgb(59, 168, 211);
+  border-width: 0;
+  font-size: 20px;
+  color: white;
+} */
+.full-page {
+  height: 90px;
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.full-page-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 20%;
+  height: 40%;
+  border-radius: 30px;
+  background-color: #1c638f;
+  text-align: center;
+}
+.see {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
