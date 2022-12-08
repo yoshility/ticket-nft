@@ -3,7 +3,7 @@ import "./Footer.css"
 export const Footer = () => {
   return (
     <footer>
-      <div className="footer-logo">Ticket NFT</div>
+      <div className="footer-logo">Crypto Stock</div>
       <div className="footer-list">
         <ul>
           <li>会社概要</li>

@@ -1,7 +1,8 @@
 header {
-  height: 90px;
-  background-color: #87cefa;
-  width: 100vw;
+  height: 150px;
+  padding: 15px;
+  background-color: rgba(28, 99, 143, 0.8);
+  width: 100%;
   display: flex;
   vertical-align: middle;
   position: sticky;
@@ -15,38 +16,43 @@ header {
   color: white;
   vertical-align: middle;
 }
-.search-container {
-  margin-left: 20px;
+.search {
+  margin: 35px;
   width: 50%;
-  height: 80%;
+  height: 40%;
+  display: flex;
   vertical-align: middle;
 }
-.search-container input[type="text"]{
-  border: 1px solid #999;
-  padding: 3px 5px;
-  border-radius: 30px;
-  height: 70%;
+.search-box {
+  margin-left: 20px;
+  margin: 5px;
   width: 70%;
-  overflow: hidden;
+  height: 100%;
+  border-radius: 30px;
+  border-width: 1px;
+  border-color: grey;
   font-size: 20px;
+  color: grey;
+  background-color: aliceblue;
   vertical-align: middle;
 }
-.search-container input[type="text"]:focus {
-  outline: 0;
-}
-.search-container input[type="submit"]{
-  cursor: pointer;
-  /* font-family: FontAwesome; */
-  font-size: 30px;
-  border: none;
-  background: none;
-  color: #3879D9;
-  outline : none;
-  display: inline-block;
+.search-button {
+  margin: 5px;
+  width: 10%;
+  height: 100%;
+  border-width: 0;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #1c638f;
+  background-color: rgb(191, 215, 224);
   vertical-align: middle;
+  text-align: center;
 }
 .wallet_button {
-  justify-content: right;
+  margin: 50px;
+  margin-left: 300px;
+  margin-right: 0;
+  float: inline-end;
   vertical-align: middle;
-  color: white;
 }
