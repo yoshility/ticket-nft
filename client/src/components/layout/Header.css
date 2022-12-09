@@ -11,8 +11,10 @@ header {
 }
 .logo {
   margin: 10px;
-  width: 300px;
+  margin-right: 100px;
+  width: 150px;
   font-size: 40px;
+
   color: white;
   vertical-align: middle;
 }
@@ -51,8 +53,9 @@ header {
 }
 .wallet_button {
   margin: 50px;
-  margin-left: 300px;
-  margin-right: 0;
-  float: inline-end;
+  margin-left: 250px;
+  margin-right: 50px;
+  width: 200px;
+  float: right;
   vertical-align: middle;
 }

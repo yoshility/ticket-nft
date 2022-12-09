@@ -1,16 +1,22 @@
 .top-img {
     width: 100%;
-    background-size:  cover;
 }
 .icon {
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 120px;
     border-radius: 20px;
-    margin-left: 60px;
     position: absolute;
     top: 600px;
+    left: 300px;
+    background-color: aqua;
+}
+.content {
+    width: 85%;
+    padding: 20px;
 }
 .name {
+    color: #1c638f;
+    font-size: 35px;
     margin-left: 60px;
 }
 h3 {
@@ -21,8 +27,10 @@ span {
 }
 .desc {
     color: grey;
+    word-break: break-all;
 }
 .button {
     float: right;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
