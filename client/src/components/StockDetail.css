@@ -1,0 +1,28 @@
+.top-img {
+    width: 100%;
+    background-size:  cover;
+}
+.icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    margin-left: 60px;
+    position: absolute;
+    top: 600px;
+}
+.name {
+    margin-left: 60px;
+}
+h3 {
+    margin-left: 60px;
+}
+span {
+    color: grey;
+}
+.desc {
+    color: grey;
+}
+.button {
+    float: right;
+    margin-right: 30px;
+}
